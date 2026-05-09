@@ -2,7 +2,9 @@
 
 A modern, AI-powered web application that turns photos of your ingredients into delicious, personalized recipes. Simply upload a photo of your fridge or pantry, and let the AI do the rest!
 
-![App Screenshot](https://raw.githubusercontent.com/username/repo/main/screenshot.png) *(Replace with your actual screenshot)*
+## 📸 Screenshots
+![Home Page](./assets/home-page.png)
+![Recipe Result](./assets/recipe-result.png)
 
 ## ✨ Features
 - **🖼️ AI Vision Analysis**: Uses Google Gemini 2.5 Flash to identify ingredients from photos.
