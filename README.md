@@ -2,9 +2,21 @@
 
 A modern, AI-powered web application that turns photos of your ingredients into delicious, personalized recipes. Simply upload a photo of your fridge or pantry, and let the AI do the rest!
 
-## 📸 Screenshots
-![Home Page](./assets/home-page.png)
-![Recipe Result](./assets/recipe-result.png)
+## 📸 Project Gallery
+
+### 🏠 Home & Upload
+![Home Page](./assets/home.png)
+
+### 🔍 Ingredient Detection & Preferences
+![Ingredients](./assets/ingredients.png)
+
+### 📖 Recipe Instructions & Nutrition
+![Instructions Part 1](./assets/instructions-1.png)
+![Instructions Part 2](./assets/instructions-2.png)
+![Nutrition Information](./assets/nutrition.png)
+
+### 💾 Saved Recipes
+![Saved Recipes](./assets/saved-recipes.png)
 
 ## ✨ Features
 - **🖼️ AI Vision Analysis**: Uses Google Gemini 2.5 Flash to identify ingredients from photos.
@@ -14,40 +26,28 @@ A modern, AI-powered web application that turns photos of your ingredients into 
 - **🌓 Modern UI**: A beautiful, responsive interface with a premium "foodie" aesthetic.
 
 ## 🚀 Tech Stack
-- **Frontend**: React.js, Vite, Vanilla CSS (Custom Design System)
+- **Frontend**: React.js, Vite, Vanilla CSS
 - **Backend**: Node.js, Express
 - **AI**: Google Gemini API (Vision & Pro)
 - **Database**: Supabase (PostgreSQL)
-- **Authentication**: (Optional - ready for integration)
 
 ## 🛠️ Installation & Setup
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/ai-recipe-generator.git
+   git clone https://github.com/Likhith206/ai-recipe-generator.git
    cd ai-recipe-generator
    ```
 
 2. **Setup Backend**
    - Navigate to `Server` directory.
    - Run `npm install`.
-   - Create a `.env` file with:
-     ```env
-     PORT=5000
-     SUPABASE_URL=your_supabase_url
-     SUPABASE_ANON_KEY=your_supabase_key
-     GEMINI_API_KEY=your_gemini_key
-     ```
+   - Create a `.env` file with your keys.
    - Run `npm run dev`.
 
 3. **Setup Frontend**
    - Navigate to `Client` directory.
    - Run `npm install`.
-   - Create a `.env.local` file with:
-     ```env
-     VITE_SUPABASE_URL=your_supabase_url
-     VITE_SUPABASE_ANON_KEY=your_supabase_key
-     ```
    - Run `npm run dev`.
 
 ## 📜 License
